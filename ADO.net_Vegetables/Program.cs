@@ -41,7 +41,7 @@ namespace ADO.net_Vegetables
                         CLI.ShowValue(db.GetMinCalorieContent(), "Минимальноя калорийность овощей и фруктов:");
                         db.Close();
                         break;
-                    case "6":  //  6. отображение средней калорийности овощей и фруктов.
+                    case "6":  // отображение средней калорийности овощей и фруктов.
                         db.Open();
                         CLI.ShowValue(db.GetAvgCalorieContent(), "Средняя калорийность овощей и фруктов:");
                         db.Close();

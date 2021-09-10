@@ -6,7 +6,7 @@ namespace Lib
 {
     public class DataBase
     {
-        const string CONN_STR = "*********************************************************************;";
+        const string CONN_STR = "*************************************************************************;";
         private readonly MySqlConnection _db;
         private MySqlCommand _command;
         public DataBase()
